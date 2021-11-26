@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Valadition</title>
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <div id="left">
+                <h1>Hi User! </h1>
+            </div>
+            <div id="right">
+                <h1>Sign Up</h1>
+                <form action="#" onsubmit="return Val()" id="form">
+                    
+                    <input type="text" name="" id="username" class="item" value="" autocomplete="off"  placeholder="USERNAME">
+                    <span  class="imsg" id="user_msg"></span>
+
+                    <input type="text" name="" id="email" class="item" value="" autocomplete="off" placeholder="EMAIL">
+                    <span class="imsg" id="email_msg"></span>
+
+                    <input type="password" name="" id="password" class="item" autocomplete="off" value="" placeholder="PASSWORD">
+                    <span class="imsg" id="pass_msg"></span>
+
+                    <input type="password" name="" id="cpassword" class="item" autocomplete="off" value="" placeholder="CONFORM PASSWORD">
+                    <span class="imsg" id="cpass_msg"></span>
+
+                    <input type="submit" name="" value="Submit">
+                    
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
